@@ -96,7 +96,7 @@ $(function() {
 
          it('loaded', function() {
             // check if entries are loaded
-            expect(feed.childElementCount).not.toBe(0);
+            expect(feed.querySelectorAll('.entry')).not.toBe(0);
          });
     });
 
